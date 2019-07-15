@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\go",
+    "\\go\\src",
     "\\go\\src\\github.com",
-    "\\go\\src\\github.com\\johncburns1",
-    "\\go\\src\\github.com\\johncburns1\\shared-c"
+    "\\go\\src\\github.com\\johncburns1"
   ],
   "SelectedNode": "\\go",
   "PreviewInSolutionExplorer": false
