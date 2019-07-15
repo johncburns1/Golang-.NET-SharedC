@@ -168,7 +168,6 @@ namespace SharedC
         {
             [DllImport("helloworld.win.dll", CharSet = CharSet.Unicode, CallingConvention = CallingConvention.StdCall, SetLastError = true)]
             public static extern unsafe void* HelloWorld(GoString s);
-
         }
     }
 }
