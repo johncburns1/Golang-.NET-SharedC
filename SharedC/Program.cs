@@ -78,7 +78,7 @@ namespace SharedC
             // Read the size of the data returned by HelloWorld
             byte* buf       = (byte*)helloResult;
             byte[] lenBytes = new byte[4];
-            for (int i = 0; i< 4; i++)
+            for (int i = 0; i < 4; i++)
             {
                 lenBytes[i] = *buf++;
             }
@@ -123,8 +123,8 @@ namespace SharedC
         // Prints an Int64 array to a pretty string
         private static string Int64ArrayToString(Int64[] arr)
         {
-            var strBuilder = new StringBuilder("");
-            var n = arr.Length;
+            var strBuilder      = new StringBuilder("");
+            var n               = arr.Length;
             for (int i = 0; i < n; i++)
              {
                 if (i == (n - 1))
