@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\johnc\\source\\repos\\SharedC\\SharedC\\SharedC.csproj": {}
+    "c:\\Users\\johnc\\source\\repos\\SharedC\\SharedC\\SharedC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\johnc\\source\\repos\\SharedC\\SharedC\\SharedC.csproj": {
+    "c:\\Users\\johnc\\source\\repos\\SharedC\\SharedC\\SharedC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\johnc\\source\\repos\\SharedC\\SharedC\\SharedC.csproj",
+        "projectUniqueName": "c:\\Users\\johnc\\source\\repos\\SharedC\\SharedC\\SharedC.csproj",
         "projectName": "SharedC",
-        "projectPath": "C:\\Users\\johnc\\source\\repos\\SharedC\\SharedC\\SharedC.csproj",
+        "projectPath": "c:\\Users\\johnc\\source\\repos\\SharedC\\SharedC\\SharedC.csproj",
         "packagesPath": "C:\\Users\\johnc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\johnc\\source\\repos\\SharedC\\SharedC\\obj\\",
+        "outputPath": "c:\\Users\\johnc\\source\\repos\\SharedC\\SharedC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -74,12 +74,7 @@
             "net461"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "none"
-            }
-          }
+          "warn": true
         }
       }
     }
