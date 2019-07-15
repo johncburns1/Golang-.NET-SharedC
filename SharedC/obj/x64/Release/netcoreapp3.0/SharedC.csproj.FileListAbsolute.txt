@@ -1,0 +1,11 @@
+C:\Users\johnc\source\repos\SharedC\SharedC\bin\x64\Release\netcoreapp3.0\SharedC.exe
+C:\Users\johnc\source\repos\SharedC\SharedC\bin\x64\Release\netcoreapp3.0\SharedC.deps.json
+C:\Users\johnc\source\repos\SharedC\SharedC\bin\x64\Release\netcoreapp3.0\SharedC.runtimeconfig.json
+C:\Users\johnc\source\repos\SharedC\SharedC\bin\x64\Release\netcoreapp3.0\SharedC.runtimeconfig.dev.json
+C:\Users\johnc\source\repos\SharedC\SharedC\bin\x64\Release\netcoreapp3.0\SharedC.dll
+C:\Users\johnc\source\repos\SharedC\SharedC\bin\x64\Release\netcoreapp3.0\SharedC.pdb
+C:\Users\johnc\source\repos\SharedC\SharedC\obj\x64\Release\netcoreapp3.0\SharedC.csproj.CoreCompileInputs.cache
+C:\Users\johnc\source\repos\SharedC\SharedC\obj\x64\Release\netcoreapp3.0\SharedC.AssemblyInfoInputs.cache
+C:\Users\johnc\source\repos\SharedC\SharedC\obj\x64\Release\netcoreapp3.0\SharedC.AssemblyInfo.cs
+C:\Users\johnc\source\repos\SharedC\SharedC\obj\x64\Release\netcoreapp3.0\SharedC.dll
+C:\Users\johnc\source\repos\SharedC\SharedC\obj\x64\Release\netcoreapp3.0\SharedC.pdb
