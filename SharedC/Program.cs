@@ -76,6 +76,7 @@ namespace SharedC
              }
 
             // Read the size of the data returned by HelloWorld
+            // The size is an int32, so we read 4 bytes
             byte* buf       = (byte*)helloResult;
             byte[] lenBytes = new byte[4];
             for (int i = 0; i < 4; i++)
@@ -89,7 +90,10 @@ namespace SharedC
             byte[] bytes    = new byte[n];
             for (int i = 0; i < n; i++)
             {
-                if (i< 4)
+
+                // Skip the first 4 bytes because
+                // they hold the size
+                if (i < 4)
                 {
                     *buf++ = 0;
                 }
