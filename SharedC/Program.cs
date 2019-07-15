@@ -10,7 +10,7 @@ namespace SharedC
          struct GoString
         {
             public IntPtr p;
-            public int n;
+            public Int64 n;
         }
 
         // GoSlice represents
@@ -126,21 +126,22 @@ namespace SharedC
             var strBuilder      = new StringBuilder("");
             var n               = arr.Length;
             for (int i = 0; i < n; i++)
-             {
+            {
                 if (i == (n - 1))
-                 {
-                   strBuilder   = strBuilder.Append($"{arr[i]}\n");
-                 }
+                {
+                    strBuilder  = strBuilder.Append($"{arr[i]}\n");
+                }
 
                 else if (i == 0)
-                 {
+                {
                     strBuilder  = strBuilder.Append($"Sort: {arr[i]}, ");
-                 }
-                 else
-                 {
+                }
+
+                else
+                {
                     strBuilder  = strBuilder.Append($"{arr[i]}, ");
-                 }
-             }
+                }
+            }
 
             return strBuilder.ToString();
          }
