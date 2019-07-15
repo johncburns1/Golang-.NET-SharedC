@@ -7,7 +7,7 @@ namespace SharedC
     unsafe class Program
     {       
         // shared library.
-         struct GoString
+        struct GoString
         {
             public IntPtr p;
             public Int64 n;
@@ -17,7 +17,7 @@ namespace SharedC
         // a slice in golang so that we
         // can pass slices to the go external
         // shared library.
-         struct GoSlice
+        struct GoSlice
         {
             public IntPtr data;
             public Int64 len;
