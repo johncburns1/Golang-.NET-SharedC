@@ -6,7 +6,7 @@ export PATH := $(GOPATH)/bin:$(PATH)
 
 # Project, test, source, and build paths
 PROJECT_ROOT := github.com/johncburns1/shared-c
-BUILD_DIR := C:/Users/johnc/source/repos/SharedC/SharedC/bin/Debug/netcoreapp3.0
+BUILD_DIR := $(HOME)/source/repos/SharedC/SharedC/bin/Debug/netcoreapp3.0
 HW_DIR := ./cmd/helloworld
 MATH_DIR := ./cmd/math
 
